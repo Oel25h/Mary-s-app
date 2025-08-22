@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { AppProvider } from '@/contexts/AppContext'
@@ -11,8 +11,8 @@ import DevServiceWorkerGuard from '@/components/utils/DevServiceWorkerGuard'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'FinanceAI - Smart Financial Management',
-  description: 'AI-powered financial management dashboard',
+  title: 'AccAI - Personal Finance Dashboard',
+  description: 'AI-powered financial management and budgeting application',
   manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
