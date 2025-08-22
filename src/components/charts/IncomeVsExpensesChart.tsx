@@ -1,5 +1,6 @@
 'use client'
 
+// Performance optimized chart component
 import { useState } from 'react'
 import { useApp } from '@/contexts/AppContext'
 import { useChartResponsive } from '@/hooks/useResponsive'
