@@ -12,7 +12,8 @@ export default function GlobalError({
 }) {
   useEffect(() => {
     // Log the error to an error reporting service
-    // In production, this would be sent to an error monitoring service
+    // In production, this would be sent to an error monitoring service like Sentry
+    console.error('Global error caught:', error)
   }, [error])
 
   return (
