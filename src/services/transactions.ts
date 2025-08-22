@@ -1,6 +1,8 @@
 import { createSupabaseClient } from '@/lib/supabase'
 import { Transaction } from '@/types'
 
+// Transaction service with comprehensive input validation and security checks
+
 export interface DatabaseTransaction {
   id: string
   user_id: string
