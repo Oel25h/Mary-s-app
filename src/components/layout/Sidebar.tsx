@@ -144,7 +144,7 @@ export default function Sidebar({ currentPage = 'dashboard', isOpen = true, onCl
           </div>
           
           {/* Navigation */}
-          <nav className="px-6 py-4 space-y-2" suppressHydrationWarning>
+          <nav className="px-6 py-4 space-y-2" role="navigation" aria-label="Main navigation" suppressHydrationWarning>
             {menuItems.map((item) => (
               <SidebarItem
                 key={item.key}
