@@ -5,6 +5,7 @@ import { Transaction, Budget, ChatMessage, ChatResponse, ChatOptions, FinancialC
  * Enhanced AI Chat Service using Google Gemini
  * Provides intelligent financial advisory with conversation memory and context awareness
  */
+// AI Chat service with rate limiting and error handling
 class AIChatService {
   private genAI: GoogleGenerativeAI
   private model: any
